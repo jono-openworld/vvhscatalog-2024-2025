@@ -1,0 +1,813 @@
+
+<!DOCTYPE html>
+<!-- HTML open tag -->
+<html lang="en">
+
+<!-- Head -->
+<head>
+<title>VVHS Course Explorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<!-- body -->
+<body>
+<!-- Header -->
+    <header class="w3-top w3-padding w3-center">
+        <div class = "w3-row">
+            <!-- Navbar -->
+            <div class="w3-bar navbar  w3-left">
+                <a href= "../index.html" class="w3-bar-item w3-button ">
+                    HOME
+                </a>
+
+                <div class="w3-dropdown-hover">
+                    <button class="w3-button">
+                        Core
+                    </button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                     
+                            <a href="../tags/9th-grade-core.html" class="w3-bar-item w3-button">
+                                9th Grade Core
+                            </a>                   
+                 
+                            <a href="../tags/ela-core.html" class="w3-bar-item w3-button">
+                                English / Language<br>Arts Core
+                            </a>                   
+                 
+                            <a href="../tags/math-core.html" class="w3-bar-item w3-button">
+                                Mathematics<br>Core
+                            </a>                   
+                 
+                            <a href="../tags/sci-core.html" class="w3-bar-item w3-button">
+                                Science Core
+                            </a>                   
+                 
+                            <a href="../tags/ss-core.html" class="w3-bar-item w3-button">
+                                Social Studies<br>Core
+                            </a>                   
+                                       
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover">
+                    <button class="w3-button">
+                        CTE / FA
+                    </button>
+                    <div class="w3-dropdown-content w3-bar-block w3-right w3-card-4">
+                     
+                            <a href="../tags/cte-auto-elective.html" class="w3-bar-item w3-button">
+                                Automotive (CTE)
+                            </a>                   
+                 
+                            <a href="../tags/cte-cs-elective.html" class="w3-bar-item w3-button">
+                                Computer Science<br>(CTE)
+                            </a>                   
+                 
+                            <a href="../tags/cte-ca-elective.html" class="w3-bar-item w3-button">
+                                Culinary Arts (CTE)
+                            </a>                   
+                 
+                            <a href="../tags/cte-deca-bmaf-elective.html" class="w3-bar-item w3-button">
+                                DECA / Business,<br>Marketing, and Finance<br>(CTE)
+                            </a>                   
+                 
+                            <a href="../tags/cte-digital-film-elective.html" class="w3-bar-item w3-button">
+                                Digitial Film Production<br>(CTE)
+                            </a>                   
+                 
+                            <a href="../tags/cte-eng-elective.html" class="w3-bar-item w3-button">
+                                Engineering Design<br>(CTE)
+                            </a>                   
+                 
+                            <a href="../tags/fa-pa-elective.html" class="w3-bar-item w3-button">
+                                Performing Arts<br>(Fine Arts)
+                            </a>                   
+                 
+                            <a href="../tags/fa-va-elective.html" class="w3-bar-item w3-button">
+                                Visual Arts (Fine<br>Arts)
+                            </a>                   
+                                       
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover">
+                    <button class="w3-button">
+                        More
+                    </button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                     
+                            <a href="../tags/jrotc-elective.html" class="w3-bar-item w3-button">
+                                Air Force JROTC
+                            </a>                   
+                 
+                            <a href="../tags/ela-elective.html" class="w3-bar-item w3-button">
+                                English / Language<br>Arts Electives
+                            </a>                   
+                 
+                            <a href="../tags/general-elective.html" class="w3-bar-item w3-button">
+                                General Electives
+                            </a>                   
+                 
+                            <a href="../tags/mcnl-elective.html" class="w3-bar-item w3-button">
+                                Modern, Classical,<br>and Native<br>Languages Electives
+                            </a>                   
+                 
+                            <a href="../tags/pe-elective.html" class="w3-bar-item w3-button">
+                                Physical Education
+                            </a>                   
+                 
+                            <a href="../tags/sci-elective.html" class="w3-bar-item w3-button">
+                                Science Electives
+                            </a>                   
+                 
+                            <a href="../tags/ss-elective.html" class="w3-bar-item w3-button">
+                                Social Studies<br>Electives
+                            </a>                   
+                 
+                            <a href="../tags/sped-gifted-electives.html" class="w3-bar-item w3-button">
+                                Special Education<br>Gifted Electives
+                            </a>                   
+                                       
+                    </div>
+                </div>
+                                   
+            </div>
+        </div>
+    </header>
+
+
+<!-- Title -->
+    <div class="w3-container w3-center" style="margin-top:50px;">
+        <h1>
+            VVHS Course Explorer 2024-2025
+        </h1>
+        <p class = "w3-small">
+            This interactive course exploration tool enables easy 
+            access to basic course information. 
+        </p>
+        <p class = "w3-small">
+            It does not replace the more detailed information 
+            available in the 2024-2025 VVHS Course Catalog.
+        </p>
+    </div>
+    
+
+<!-- Page content -->
+<main>
+    <div class="w3-content w3-padding-large" style="margin-top:10px">
+
+        <!-- Course Section -->
+        <!-- will contain either [Course Details] or multiple [Course Rows] -->
+        <div class="w3-container w3-content w3-padding-large w3-card" style="max-width:800px">
+
+        <!-- breadcrumb -->
+        <div class = "breadcrumb">
+            <div class="w3-padding-16">
+                
+                <a href = "../index.html">Home</a> 
+                &nbsp;&nbsp;/&nbsp;&nbsp;
+                DECA / Business, Marketing, and Finance (CTE)
+
+            </div>
+        </div>
+
+        <h2 class="w3-wide w3-left-align">
+            DECA / Business, Marketing, and Finance (CTE)
+        </h2>
+
+
+<!-- Search Bar -->
+            <p class = "w3-left-align">Search:</p>
+
+            <input class="w3-input w3-border w3-padding search-bar" 
+                    type="text" placeholder="Search for ..." 
+                    id="nameInput" onkeyup="searchCourseName()">
+
+<!-- Checkboxes -->
+<!-- Grades Checkboxes -->
+    <div class="checkboxes-container">
+        <h3>
+            Grades (must select at least one)
+        </h3>
+        
+        <span class = "w3-padding-small">
+            <input class="w3-check" 
+                    id="ninthCheck" type="checkbox">
+            <label class="w3-padding-small">
+                9th Grade
+            </label>
+        </span>
+
+        
+        <span class = "w3-padding-small">
+            <input class="w3-check" 
+                    id="tenthCheck" type="checkbox">
+            <label class="w3-padding-small">
+                10th Grade
+            </label>
+        </span>
+
+        <span class = "w3-padding-small">
+            <input class="w3-check" 
+                    id="eleventhCheck" type="checkbox">
+            <label class="w3-padding-small">
+                11th Grade
+            </label>
+        </span>
+
+        
+        <span class = "w3-padding-small">
+            <input class="w3-check" 
+                    id="twelvethCheck" type="checkbox">
+            <label class="w3-padding-small">
+                12th Grade
+            </label>
+        </span>
+    </div>
+
+    <br>
+
+    <!-- Electives checkboxes -->
+    <div class="checkboxes-container">
+        <h3>
+            Electives (must select at least one)
+        </h3>
+        
+        <span class = "w3-padding-small">
+            <input class="w3-check" 
+                    id="nonElectivesCheck" type="checkbox">
+            <label class="w3-padding-small">           
+                    Non-electives
+            </label>
+        </span>
+
+        <span class = "w3-padding-small">
+            <input class="w3-check" 
+                    id="electivesCheck" type="checkbox">
+            <label class="w3-padding-small">           
+                    Electives
+            </label>
+        </span>
+    </div>
+
+    <hr>
+        
+            <div class="w3-row w3-padding-small">
+                <div class="w3-third">
+                    <div class="w3-half w3-left-align w3-hide-small">
+                        <h3>Dept.</h3>
+                    </div>
+                    <div class="w3-half w3-left-align w3-hide-small">
+                        <h3>Number</h3>
+                    </div>
+                </div>
+                
+                <div class="w3-third">
+                    <div class="w3-left-align w3-hide-small">
+                        <h3>Name</h3>
+                    </div>
+                </div>
+
+
+                <div class="w3-third">
+                    <div class="w3-half w3-left-align w3-hide-small">
+                        <h3>Grade</h3>
+                    </div>
+                    <div class="w3-half w3-left-align w3-hide-small">
+                        <h3>Elective</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course double-space">
+                <div class="w3-row">
+                    
+                    <div class="grade-selectors tenth-grade eleventh-grade twelveth-grade" >
+                        
+                        <div class="elective-selectors electives" >
+                            <div class="w3-third">
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Department:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../departments/cte-dept.html">
+                                            CTE
+                                        </a>   
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Number:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../courses/86111-ACE-Marketing-I.html">
+                                            86111
+                                        </a>   
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-left-align
+                                        padding-left-small padding-right-small">
+                                <span class = "w3-hide-medium w3-hide-large highlight">
+                                    Name:
+                                </span>
+                                <span class = "textSearch">
+                                    <a href = "../courses/86111-ACE-Marketing-I.html">
+                                        ACE Marketing I
+                                    </a>   
+                                </span>
+                            </div>
+                            <div class="w3-third">                  
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Grade:
+                                    </span>
+                                    <span class = "textSearch">
+                                        10, 11, 12
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Elective:
+                                    </span>
+                                    <span class = "textSearch">
+                                        Yes
+                                    </span>
+                                </div>   
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <div class = "w3-hide-medium w3-hide-large">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course double-space">
+                <div class="w3-row">
+                    
+                    <div class="grade-selectors eleventh-grade twelveth-grade" >
+                        
+                        <div class="elective-selectors electives" >
+                            <div class="w3-third">
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Department:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../departments/cte-dept.html">
+                                            CTE
+                                        </a>   
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Number:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../courses/86114-ACE-Marketing-II.html">
+                                            86114
+                                        </a>   
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-left-align
+                                        padding-left-small padding-right-small">
+                                <span class = "w3-hide-medium w3-hide-large highlight">
+                                    Name:
+                                </span>
+                                <span class = "textSearch">
+                                    <a href = "../courses/86114-ACE-Marketing-II.html">
+                                        ACE Marketing II
+                                    </a>   
+                                </span>
+                            </div>
+                            <div class="w3-third">                  
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Grade:
+                                    </span>
+                                    <span class = "textSearch">
+                                        11, 12
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Elective:
+                                    </span>
+                                    <span class = "textSearch">
+                                        Yes
+                                    </span>
+                                </div>   
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <div class = "w3-hide-medium w3-hide-large">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course double-space">
+                <div class="w3-row">
+                    
+                    <div class="grade-selectors twelveth-grade" >
+                        
+                        <div class="elective-selectors electives" >
+                            <div class="w3-third">
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Department:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../departments/cte-dept.html">
+                                            CTE
+                                        </a>   
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Number:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../courses/86117-ACE-Marketing-III.html">
+                                            86117
+                                        </a>   
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-left-align
+                                        padding-left-small padding-right-small">
+                                <span class = "w3-hide-medium w3-hide-large highlight">
+                                    Name:
+                                </span>
+                                <span class = "textSearch">
+                                    <a href = "../courses/86117-ACE-Marketing-III.html">
+                                        ACE Marketing III
+                                    </a>   
+                                </span>
+                            </div>
+                            <div class="w3-third">                  
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Grade:
+                                    </span>
+                                    <span class = "textSearch">
+                                        12
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Elective:
+                                    </span>
+                                    <span class = "textSearch">
+                                        Yes
+                                    </span>
+                                </div>   
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <div class = "w3-hide-medium w3-hide-large">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course double-space">
+                <div class="w3-row">
+                    
+                    <div class="grade-selectors eleventh-grade twelveth-grade" >
+                        
+                        <div class="elective-selectors electives" >
+                            <div class="w3-third">
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Department:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../departments/cte-dept.html">
+                                            CTE
+                                        </a>   
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Number:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../courses/84230-Applied-Marketing-Research--DECA-III-.html">
+                                            84230
+                                        </a>   
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-left-align
+                                        padding-left-small padding-right-small">
+                                <span class = "w3-hide-medium w3-hide-large highlight">
+                                    Name:
+                                </span>
+                                <span class = "textSearch">
+                                    <a href = "../courses/84230-Applied-Marketing-Research--DECA-III-.html">
+                                        Applied Marketing Research (DECA III)
+                                    </a>   
+                                </span>
+                            </div>
+                            <div class="w3-third">                  
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Grade:
+                                    </span>
+                                    <span class = "textSearch">
+                                        11, 12
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Elective:
+                                    </span>
+                                    <span class = "textSearch">
+                                        Yes
+                                    </span>
+                                </div>   
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <div class = "w3-hide-medium w3-hide-large">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course double-space">
+                <div class="w3-row">
+                    
+                    <div class="grade-selectors ninth-grade tenth-grade eleventh-grade twelveth-grade" >
+                        
+                        <div class="elective-selectors electives" >
+                            <div class="w3-third">
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Department:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../departments/cte-dept.html">
+                                            CTE
+                                        </a>   
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Number:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../courses/84321-Business-Management-II--DECA-II-.html">
+                                            84321
+                                        </a>   
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-left-align
+                                        padding-left-small padding-right-small">
+                                <span class = "w3-hide-medium w3-hide-large highlight">
+                                    Name:
+                                </span>
+                                <span class = "textSearch">
+                                    <a href = "../courses/84321-Business-Management-II--DECA-II-.html">
+                                        Business Management II (DECA II)
+                                    </a>   
+                                </span>
+                            </div>
+                            <div class="w3-third">                  
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Grade:
+                                    </span>
+                                    <span class = "textSearch">
+                                        9, 10, 11, 12
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Elective:
+                                    </span>
+                                    <span class = "textSearch">
+                                        Yes
+                                    </span>
+                                </div>   
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <div class = "w3-hide-medium w3-hide-large">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course double-space">
+                <div class="w3-row">
+                    
+                    <div class="grade-selectors ninth-grade tenth-grade eleventh-grade twelveth-grade" >
+                        
+                        <div class="elective-selectors electives" >
+                            <div class="w3-third">
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Department:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../departments/cte-dept.html">
+                                            CTE
+                                        </a>   
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Number:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../courses/84320-Introductory-Business-I---DECA-I---Formerly-Business-Marketing-&-Finance-I-.html">
+                                            84320
+                                        </a>   
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-left-align
+                                        padding-left-small padding-right-small">
+                                <span class = "w3-hide-medium w3-hide-large highlight">
+                                    Name:
+                                </span>
+                                <span class = "textSearch">
+                                    <a href = "../courses/84320-Introductory-Business-I---DECA-I---Formerly-Business-Marketing-&-Finance-I-.html">
+                                        Introductory Business I  (DECA I - Formerly Business Marketing & Finance I)
+                                    </a>   
+                                </span>
+                            </div>
+                            <div class="w3-third">                  
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Grade:
+                                    </span>
+                                    <span class = "textSearch">
+                                        9, 10, 11, 12
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Elective:
+                                    </span>
+                                    <span class = "textSearch">
+                                        Yes
+                                    </span>
+                                </div>   
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <div class = "w3-hide-medium w3-hide-large">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course double-space">
+                <div class="w3-row">
+                    
+                    <div class="grade-selectors tenth-grade eleventh-grade twelveth-grade" >
+                        
+                        <div class="elective-selectors electives" >
+                            <div class="w3-third">
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Department:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../departments/cte-dept.html">
+                                            CTE
+                                        </a>   
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Number:
+                                    </span>
+                                    <span class="textSearch">
+                                        <a href = "../courses/84312-Marketing-Mentorships--DECA-IV---Formerly-Marketing-Lab-.html">
+                                            84312
+                                        </a>   
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="w3-third w3-left-align
+                                        padding-left-small padding-right-small">
+                                <span class = "w3-hide-medium w3-hide-large highlight">
+                                    Name:
+                                </span>
+                                <span class = "textSearch">
+                                    <a href = "../courses/84312-Marketing-Mentorships--DECA-IV---Formerly-Marketing-Lab-.html">
+                                        Marketing Mentorships (DECA IV - Formerly Marketing Lab)
+                                    </a>   
+                                </span>
+                            </div>
+                            <div class="w3-third">                  
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Grade:
+                                    </span>
+                                    <span class = "textSearch">
+                                        10, 11, 12
+                                    </span>
+                                </div>
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <span class = "w3-hide-medium w3-hide-large highlight">
+                                        Elective:
+                                    </span>
+                                    <span class = "textSearch">
+                                        Yes
+                                    </span>
+                                </div>   
+                                <div class="w3-half w3-left-align 
+                                            padding-left-small padding-right-small">
+                                    <div class = "w3-hide-medium w3-hide-large">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding w3-center">
+    <div style = "height:2em" >
+
+    </div>
+</footer>
+
+<!-- Javascript -->
+<script src="../javascript/javascript.js">
+
+</script>
+
+</body>
